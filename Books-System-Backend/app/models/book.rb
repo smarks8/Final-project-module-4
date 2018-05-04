@@ -15,6 +15,7 @@ class Book < ApplicationRecord
         v.each do |i|
           title = ''
           author = ''
+          puts "hi"
           i.each do |k1,v1|
             if k1 == 'volumeInfo'
               v1.each do |k2,v2|
